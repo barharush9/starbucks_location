@@ -1,0 +1,13 @@
+# docker-compose.yml
+
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./Server:/src/app/Server
+      - ./Client:/src/app/Client
+    command: ["node", "Server/app/server.js"]
