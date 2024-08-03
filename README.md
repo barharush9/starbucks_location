@@ -57,8 +57,10 @@ This web application displays Starbucks locations on a map using OpenLayers for 
    cd Server
    npm install
 
-2.```bash
-  npm start
+2. Start the Application:
+   ```bash
+   npm start
+   
 3.Access the Application:
 Open a web browser and go to http://localhost:3000
 
