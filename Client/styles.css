@@ -1,0 +1,73 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+  }
+  
+  header {
+    background-color: #005127; 
+    color: #fff; 
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header .logo {
+    width: 100px;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+  
+  #controls {
+    margin: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #countrySelect {
+    padding: 5px;
+  }
+  
+  .map {
+    padding-left: 5px;
+    width: 100%;
+    height: 60vh;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #007a33;
+    margin-top: 20px;
+}
+  
+  #countryListUl {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+  
+  #countryListUl li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+  }
+
+  li:hover {
+    background-color: #f9f9f9;
+}
+footer {
+    text-align: left;
+    font-size: 12px;
+    color: #666;
+    margin: 20px 0;
+}
